@@ -1,0 +1,50 @@
+.home-container {
+    padding: 20px;
+  }
+  
+  .hero-section {
+    padding: 60px 20px;
+    background-color: #f8f9fa;
+    margin-bottom: 40px;
+    border-radius: 8px;
+  }
+  
+  .hero-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-section p {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  .projects-section {
+    margin: 40px 0;
+  }
+  
+  .projects-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+  }
+  
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 0 20px;
+  }
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+  padding: 0 20px;
+}
+
+@media (max-width: 768px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
